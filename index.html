@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Acompanhe as novidades e os destaques da Vindima de Pinheiro Preto, Santa Catarina.">
+    <title>2ª Vindima de Pinheiro Preto SC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="menu-header" aria-label="Navegação principal">
+            <a class="imagemHeader" href="index.html" aria-label="Página inicial">
+                <img src="Windows_logo.png" alt="Logo da Associação" class="logo">
+            </a>
+            <ul class="menu">
+                <li><a href="index.html" aria-current="page">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="page-title">
+            <p class="eyebrow">Tradição, cultura e bons encontros</p>
+            <h1 id="page-title">2ª Vindima de Pinheiro Preto</h1>
+            <p class="hero-description">Celebre a história da uva e da produção de vinho em Santa Catarina.</p>
+        </section>
+
+        <section class="news-section" aria-labelledby="news-title">
+            <div class="section-heading">
+                <p class="eyebrow">Fique por dentro</p>
+                <h2 id="news-title">Notícias e destaques</h2>
+                <p>Acompanhe um pouco do que faz da Vindima um encontro especial.</p>
+            </div>
+
+            <div class="carousel" aria-roledescription="carrossel" aria-label="Notícias e destaques da Vindima">
+                <div class="carousel-track">
+                    <article class="slide is-active" aria-roledescription="slide" aria-label="1 de 3">
+                        <img
+                            src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=1600&q=85"
+                            alt="Fileiras de parreiras em um vinhedo"
+                            fetchpriority="high">
+                        <div class="slide-shade"></div>
+                        <div class="slide-content">
+                            <span class="slide-category">A tradição da vindima</span>
+                            <h3>Uma celebração que nasce entre as parreiras</h3>
+                            <p>Conheça a cultura da colheita da uva e as raízes que fazem parte da história de Pinheiro Preto.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide" aria-roledescription="slide" aria-label="2 de 3" aria-hidden="true">
+                        <img
+                            src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=85"
+                            alt="Taças de vinho preparadas para uma degustação"
+                            loading="lazy">
+                        <div class="slide-shade"></div>
+                        <div class="slide-content">
+                            <span class="slide-category">Sabores da região</span>
+                            <h3>Os sabores que contam histórias</h3>
+                            <p>Uma oportunidade para apreciar os vinhos, a gastronomia e a hospitalidade da região.</p>
+                        </div>
+                    </article>
+
+                    <article class="slide" aria-roledescription="slide" aria-label="3 de 3" aria-hidden="true">
+                        <img
+                            src="https://images.unsplash.com/photo-1474722883778-792e7990302f?auto=format&fit=crop&w=1600&q=85"
+                            alt="Paisagem de vinhedos ao pôr do sol"
+                            loading="lazy">
+                        <div class="slide-shade"></div>
+                        <div class="slide-content">
+                            <span class="slide-category">Pinheiro Preto, SC</span>
+                            <h3>Venha viver a experiência da Vindima</h3>
+                            <p>Reúna a família e os amigos para celebrar a cultura e as tradições locais.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <button class="carousel-control previous" type="button" aria-label="Notícia anterior">
+                    <span aria-hidden="true">&#10094;</span>
+                </button>
+                <button class="carousel-control next" type="button" aria-label="Próxima notícia">
+                    <span aria-hidden="true">&#10095;</span>
+                </button>
+                <div class="carousel-dots" aria-label="Escolher notícia">
+                    <button class="carousel-dot is-active" type="button" aria-label="Mostrar notícia 1" aria-current="true"></button>
+                    <button class="carousel-dot" type="button" aria-label="Mostrar notícia 2"></button>
+                    <button class="carousel-dot" type="button" aria-label="Mostrar notícia 3"></button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
