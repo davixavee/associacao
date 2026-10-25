@@ -163,7 +163,7 @@ body {
     font-weight: 500;
 }
 
-.section-heading > p:last-child {
+.section-heading>p:last-child {
     margin: 12px 0 0;
     color: #71665e;
     line-height: 1.6;
@@ -457,6 +457,7 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
     *,
     *::before,
     *::after {
@@ -465,4 +466,26 @@ body {
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
     }
+}
+
+h1.breve {
+    text-align: center;
+    color: #702c3c;
+    display: block;
+    align-items: center;
+    border: 2px solid #702c3c;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1.brevo {
+    text-align: center;
+    color: #702c3c;
+    display: block;
+    align-items: center;
+    border: 2px solid #702c3c;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
 }
